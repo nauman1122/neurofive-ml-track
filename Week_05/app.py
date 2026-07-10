@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
+from pathlib import Path
 
 # =========================================================
 # PAGE CONFIGURATION
@@ -20,7 +20,8 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("titanic_model.joblib")
+    model_path = Path(__file__).parent / "titanic_model.joblib"
+    return joblib.load(model_path)
 
 
 model = load_model()
