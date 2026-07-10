@@ -1,0 +1,13 @@
+Feature,Importance
+cat__sex_female,0.32979488
+cat__sex_male,0.23581211
+num__pclass,0.12077872
+cat__embarked_S,0.047766067
+num__fare,0.04270003
+num__age,0.040581927
+num__FamilySize,0.040503193
+num__sibsp,0.03496456
+cat__embarked_Q,0.02996231
+cat__embarked_C,0.027850932
+num__parch,0.026873928
+num__IsAlone,0.022411289
